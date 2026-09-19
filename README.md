@@ -205,3 +205,7 @@ DATABASE_URL=postgresql://user:password@127.0.0.1:5432/mas_browser_test AUTH_TRA
 - **测试通过但数据库功能不确定**：检查测试输出是否 skipped，并在独立测试库运行集成测试。
 
 后台上游来源见 [UPSTREAM.md](apps/web-cms/UPSTREAM.md)。组件自身的使用说明保留在组件目录，开发约定统一由本仓库的 AGENTS.md 维护。
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE)。上游 mas-cms 的版权声明和 [MIT 许可证](apps/web-cms/LICENSE) 保留在对应目录；第三方依赖遵循各自的许可证。
