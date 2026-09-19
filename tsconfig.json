@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["bun", "node"]
+  },
+  "include": [
+    "apps/**/*.ts",
+    "system/server/**/*.ts",
+    "database/**/*.ts",
+    "scripts/**/*.ts",
+    "tests/**/*.ts",
+    "drizzle.config.ts",
+    "app.config.ts",
+    "config/**/*.ts"
+  ],
+  "exclude": ["apps/web-cms"]
+}
